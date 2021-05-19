@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+header {
+    width: 100%;
+    text-align: center; 
+}
+.jumbotron {
+    width: 100%;
+    height: 95vh;
+    background-image: url("../img/molisana-home.jpg");
+    background-position: center;
+    background-size: cover;
+}
+header ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Teko', sans-serif;
+   
+}
+header ul li:hover {
+   background-color: #B3E5FC;
+}
+header ul li a:hover {
+    color: #444444;
+}
+header ul li a {
+    text-decoration: none;
+    color: #001942;
+}
+footer {
+    margin-top: 70px;
+}
+.container {
+    width: 75%;
+    margin-left: 250px;
+    height: 70vh;
+    /* background-color: red; */
+   
+}
+.block-list {
+    /* min-height:500px ; */
+    width: 284.7px;
+    /* background-color:  orange; */
+    float: left;
+    /* border: 1px solid black;   */
+    padding-bottom: 40px;
+    padding: 0.2%;
+}
+.block-list section {
+   margin-left: 10px;
+}
+.block-list ul .lista {
+    margin-right: 10px;
+    padding: 7px;
+    list-style: none;
+    color: #808080;
+    line-height: 15px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+.block-list h3 {
+    color: #0d2240;
+    font-size: 26px;
+    font-family: 'Teko', sans-serif;
+    margin-left: 7px;
+}
+.block-list .immagine {
+    margin-top: 20px;
+    width: 250px;
+    height: 150px;
+}
+.IIlist {
+    margin-top: 20px;
+}
+.angle_list {
+    margin-top: 10px;
+}
+.angle {
+   font-size: 14px;
+   list-style: none;
+   color: #808080;
+   line-height: 15px;
+   font-family: "Open Sans", sans-serif;
+   padding: 4px;
+}
+.img_footer {
+    width: 100%;
+    height: 22vh;
+    background-color: #ffffff;
+    background-image: url(https://www.lamolisana.it/wp-content/uploads/2020/06/footer-montagne-bottom.jpg);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    margin-top: 70px;
+}
+
+.contatti li {
+    font-size: 11px;
+    list-style: none;
+    color: #808080;
+    font-family: "Open Sans", sans-serif;
+}
+.contatto {
+    color:gray;
+    width: 120px;
+    display: block;
+    margin-right: 15px;
+}
+.verde {
+    margin-top: 50px;
+}
+.big_container {
+    width: 100%;
+    background-color: #daedf3;
+
+}
+.pasta_container {
+    width: 100%;
+    margin: 0 auto;
+    color: #001942;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    margin-bottom: 100px;
+    overflow-y: hidden;
+}
+.pasta_box {   
+    width: calc(100% / 3 - 2.7px);
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.layHover {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: rgba(255, 255, 255, 0.7);
+   opacity: 0;
+   
+   
+}
+.layHover:hover {
+    opacity:1 ;
+}
+.layHover h3 {
+    text-align: center;
+    margin-top: 27%;
+}
+
+.pasta_box img {
+    width: 100%;
+}
+
+.layHover h3 a {
+    text-decoration: none;
+    color: #001942;
+}
+
