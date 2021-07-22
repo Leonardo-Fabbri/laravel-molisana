@@ -1,13 +1,11 @@
 @extends('layouts.app')
 @section('title', 'dettagli')
 @section('content')
-<div class="pasta_box">
+<div class="pasta_box" style="width: 80%; margin-left: 10%">
     {{-- @dump($paste); --}}
 
-    <img src="{{$paste['src']}}" alt="">
-    <div class="layHover">
-       <h3>{{$paste['titolo']}}</h3>
-    </div>
+    <img style=" width: 100%; text-align: center" src="{{$paste['src']}}" alt="">
+  
 
 </div>
 

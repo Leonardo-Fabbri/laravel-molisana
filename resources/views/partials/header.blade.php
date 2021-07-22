@@ -3,13 +3,13 @@
 
     <ul>
         <li>
-            <a href="/home">HOME</a>
+            <a href="/laravel-molisana/public/home">HOME</a>
         </li>
         <li>
-            <a href="/prodotti">PRODOTTI</a>
+            <a href="/laravel-molisana/public/prodotti">PRODOTTI</a>
         </li>
         <li>
-            <a href="/news">NEWS</a>
+            <a href="/laravel-molisana/public/news">NEWS</a>
         </li>
     </ul>
 </header>

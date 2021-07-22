@@ -10,7 +10,7 @@
 
            <img src="{{$pasta['src']}}" alt="">
            <div class="layHover">
-              <h3><a href="dettagli/{{$index}}">{{$pasta['titolo']}}</a></h3>
+              <h3><a href="/laravel-molisana/public/dettagli/{{$index}}">{{$pasta['titolo']}}</a></h3>
            </div>
 
         </div>
